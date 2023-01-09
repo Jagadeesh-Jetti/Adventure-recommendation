@@ -3,8 +3,8 @@
   text-align: center;
 }
 :root {
-  --primary-color: #0f172a;
-  --secondary-color: #01050e;
+  --primary-color: #f7430c;
+  --secondary-color: #4b1a06;
 }
 body {
   background-color: #e1e1d0;
@@ -50,7 +50,11 @@ ul {
   color: var(--primary-color);
   padding-bottom: 0.5rem;
 }
-.place {
+.desc {
+  color: var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+.rating {
   color: var(--secondary-color);
   font-size: smaller;
 }
